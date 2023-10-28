@@ -1,20 +1,30 @@
-.BOX№1{
-background-color: aqua;
-
-
+.header {
+    height: 100vh;
+    background-image: url(https://roliki-magazin.ru/wp-content/uploads/f/0/6/f0658583549e6a38dd2d5a7c6e6ec20d.jpeg);
+    background-size:cover;
 }
 
 
+.div№1{
+border-style: solid;
+border-color: black;
+border-width: 5px;
+height: auto;
+}
+
 
 .first{
-    color: rgb(21, 46, 46);
-    padding-top: 0px;
-    padding: 0% 50%;
+    color: rgb(255, 255, 255);
+    text-align: center;
     font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
 
 }
 
 .second {
-    color: rgb(24, 13, 13);
+    color: rgb(255, 255, 255);
+    text-align: center;
     font-size: 30px;
+    margin-bottom: 0;
 }
