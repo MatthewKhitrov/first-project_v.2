@@ -1,8 +1,16 @@
-@font-face{
+/* @font-face{
     src: url(https://fonts-online.ru/fonts/korova);
     font-family: "ggg";
 }
+ */
+ body {
+    font-family: 'Edu TAS Beginner', cursive;
+ 
+  }
 
+  img{
+    background-size:cover;
+  }
 .header {
     height: 100vh;
     background-image: url(https://roliki-magazin.ru/wp-content/uploads/f/0/6/f0658583549e6a38dd2d5a7c6e6ec20d.jpeg);
@@ -13,7 +21,7 @@
 .div№1{
 
 height: auto;
-font-family: 'Yanone Kaffeesatz', sans-serif;
+/* font-family: 'Yanone Kaffeesatz', sans-serif; */
 }
 
 
@@ -24,25 +32,54 @@ font-family: 'Yanone Kaffeesatz', sans-serif;
     margin-top: 0;
     margin-bottom: 0;
     font-weight:700;
+    text-transform:uppercase;
+    letter-spacing: 4px;
 
 }
 
 .second {
     color: rgb(255, 255, 255);
-    text-align: left;
-    font-size: 30px;
-    margin-bottom: 0;
-    font-weight:400;
-    font-family: monospace;
-    border-style: dashed;
-    border-color: black;
-    border-width: 5px;
+    text-align: left; /* выравниевание текста по левому краю */
+    font-size: 30px; /* размер шрифта */
+    font-weight:400; /* толщина текста */
+    font-family: monospace; /*одинаковая ширина каждого символа  */
+    border-style: dashed; /* стиль границы, пунктир */
+    border-color: black;/* цвет границы */
+    border-width: 5px;/* толщина границы */
+    font-family: 'Edu TAS Beginner', cursive; /* стиль шрифта */
+    display: inline-block; /* замена коробки на блочно строчную коробку */
+    width: 40%;
+    margin-left: 4%; /* отступ слева 4% */
+    margin-right: 4%; /* отстуа справа 4% */
+    white-space:nowrap; /* свойство запрещающие перенос текста по пробелам */
+    overflow: hidden; /* содержимое контента не входящие в границы блока обрезается по его краю без прокурутки */
+    text-overflow:ellipsis /* ставит ... в конце контента, РАБОТАЕТ ТОЛЬКО СОВМЕСТНО С OVERFLOW and WHITE-SPACE:NOWRAP */
 
 }
 
+/* .second_2 {
+        color: rgb(255, 255, 255);
+        text-align: left;
+        font-size: 30px;
+        margin-bottom: 0;
+        font-weight:400;
+        font-family: monospace;
+        border-style: dashed;
+        border-color: black;
+        border-width: 5px;
+        font-family: 'Edu TAS Beginner', cursive;
+        display: inline-block;
+        width: 40%;
+        margin: auto;
+
+}
+ */
 span {
     font-family: "ggg";
     font-weight: bold;
     color: black;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    text-decoration: underline;
 
 }
