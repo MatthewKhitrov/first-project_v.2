@@ -1,3 +1,8 @@
+@font-face{
+    src: url(https://fonts-online.ru/fonts/korova);
+    font-family: "ggg";
+}
+
 .header {
     height: 100vh;
     background-image: url(https://roliki-magazin.ru/wp-content/uploads/f/0/6/f0658583549e6a38dd2d5a7c6e6ec20d.jpeg);
@@ -6,10 +11,9 @@
 
 
 .div№1{
-border-style: solid;
-border-color: black;
-border-width: 5px;
+
 height: auto;
+font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 
@@ -19,12 +23,26 @@ height: auto;
     font-size: 50px;
     margin-top: 0;
     margin-bottom: 0;
+    font-weight:700;
 
 }
 
 .second {
     color: rgb(255, 255, 255);
-    text-align: center;
+    text-align: left;
     font-size: 30px;
     margin-bottom: 0;
+    font-weight:400;
+    font-family: monospace;
+    border-style: dashed;
+    border-color: black;
+    border-width: 5px;
+
+}
+
+span {
+    font-family: "ggg";
+    font-weight: bold;
+    color: black;
+
 }
