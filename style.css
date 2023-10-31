@@ -13,12 +13,12 @@
   }
 .header {
     height: 100vh;
-    background-image: url(https://roliki-magazin.ru/wp-content/uploads/f/0/6/f0658583549e6a38dd2d5a7c6e6ec20d.jpeg);
+    background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-03/1614857531_19-p-fon-podvodnogo-mira-29.jpg);
     background-size:cover;
 }
 
 
-.div№1{
+.div_1{
 
 height: auto;
 /* font-family: 'Yanone Kaffeesatz', sans-serif; */
@@ -26,7 +26,7 @@ height: auto;
 
 
 .first{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-align: center;
     font-size: 50px;
     margin-top: 0;
@@ -38,23 +38,38 @@ height: auto;
 }
 
 .second {
-    color: rgb(255, 255, 255);
+    background-size:cover;
+    vertical-align:top; /* свойство для выравнивания строчно-блочных контернеров по вертикале */
+    color: rgb(0, 0, 0);
     text-align: left; /* выравниевание текста по левому краю */
     font-size: 30px; /* размер шрифта */
     font-weight:400; /* толщина текста */
     font-family: monospace; /*одинаковая ширина каждого символа  */
-    border-style: dashed; /* стиль границы, пунктир */
-    border-color: black;/* цвет границы */
-    border-width: 5px;/* толщина границы */
+    /* border-style: dashed; */ /* стиль границы, пунктир */
+   /*  border-color: black; */ /* цвет границы */
+   /*  border-width: 5px; */ /* толщина границы */
     font-family: 'Edu TAS Beginner', cursive; /* стиль шрифта */
     display: inline-block; /* замена коробки на блочно строчную коробку */
-    width: 40%;
-    margin-left: 4%; /* отступ слева 4% */
-    margin-right: 4%; /* отстуа справа 4% */
-    white-space:nowrap; /* свойство запрещающие перенос текста по пробелам */
+    width: 45%;
+    margin-left: 2%; /* отступ слева 4% */
+    margin-right: 2%; /* отстуа справа 4% */
+    /* white-space:nowrap; */ /* свойство запрещающие перенос текста по пробелам */
     overflow: hidden; /* содержимое контента не входящие в границы блока обрезается по его краю без прокурутки */
     text-overflow:ellipsis /* ставит ... в конце контента, РАБОТАЕТ ТОЛЬКО СОВМЕСТНО С OVERFLOW and WHITE-SPACE:NOWRAP */
+  
 
+}
+
+.OL_1 {
+    color: rgb(0, 0, 0);
+    margin-left: 52%; 
+    margin-right: 2%; 
+    font-size: 30px;
+    font-weight:400;
+}
+
+.div_2 {
+    columns: 2 150px;
 }
 
 /* .second_2 {
@@ -75,7 +90,6 @@ height: auto;
 }
  */
 span {
-    font-family: "ggg";
     font-weight: bold;
     color: black;
     text-transform:uppercase;
