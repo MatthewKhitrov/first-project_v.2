@@ -1,99 +1,116 @@
-/* @font-face{
-    src: url(https://fonts-online.ru/fonts/korova);
-    font-family: "ggg";
-}
- */
- body {
-    font-family: 'Edu TAS Beginner', cursive;
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
  
-  }
+  background-color: #cde2f7; }
 
-  img{
-    background-size:cover;
-  }
-.header {
-   /*  height: 100vh; */
+
+.body_1 {
+    font-family: 'Edu TAS Beginner', cursive;
+    display:flex;
+    flex-direction:column;
+    min-height: 100%;
     background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-03/1614857531_19-p-fon-podvodnogo-mira-29.jpg);
     background-size:cover;
+    flex-grow:1;
+   }
+   .main {
+    flex-grow: 1;
+   }
+
+
+.div_2 {
+    display: flex;
+    justify-content: space-around;
+    
+
 }
-
-
-.div_1{
-
-height: auto;
-/* font-family: 'Yanone Kaffeesatz', sans-serif; */
-}
-
 
 .first{
     color: rgb(247, 6, 6);
-    text-align: left;
+    text-align: center;
     font-size: 50px;
     margin-top: 0;
     margin-bottom: 0;
     font-weight:700;
     text-transform:uppercase;
     letter-spacing: 4px;
+ }
 
-}
-
-.second {
-    background-size:cover;
-    vertical-align:top; /* свойство для выравнивания строчно-блочных контернеров по вертикале */
+.second_1 {
+    /* vertical-align:top; */ /* свойство для выравнивания строчно-блочных контернеров по вертикале */
     color: rgb(0, 0, 0);
     text-align: left; /* выравниевание текста по левому краю */
     font-size: 30px; /* размер шрифта */
     font-weight:400; /* толщина текста */
     font-family: monospace; /*одинаковая ширина каждого символа  */
-    /* border-style: dashed; */ /* стиль границы, пунктир */
-   /*  border-color: black; */ /* цвет границы */
-   /*  border-width: 5px; */ /* толщина границы */
+    border-style: dashed;  /* стиль границы, пунктир */
+    border-color: black; /* цвет границы */
+    border-width: 5px; /* толщина границы */
     font-family: 'Edu TAS Beginner', cursive; /* стиль шрифта */
-    display: inline-block; /* замена коробки на блочно строчную коробку */
+    /* display: inline-block; */ /* замена коробки на блочно строчную коробку */
     width: 45%;
-    margin-left: 2%; /* отступ слева 4% */
-    margin-right: 2%; /* отстуа справа 4% */
     /* white-space:nowrap; */ /* свойство запрещающие перенос текста по пробелам */
     overflow: hidden; /* содержимое контента не входящие в границы блока обрезается по его краю без прокурутки */
     text-overflow:ellipsis /* ставит ... в конце контента, РАБОТАЕТ ТОЛЬКО СОВМЕСТНО С OVERFLOW and WHITE-SPACE:NOWRAP */
-  
+  }
 
-}
-
-.OL_1 {
+  .second_2 {
+   /*  vertical-align:top; */ /* свойство для выравнивания строчно-блочных контернеров по вертикале */
     color: rgb(0, 0, 0);
-    margin-left: 52%; 
-    margin-right: 2%; 
-    font-size: 30px;
-    font-weight:400;
-}
+    text-align: left; /* выравниевание текста по левому краю */
+    font-size: 30px; /* размер шрифта */
+    font-weight:400; /* толщина текста */
+    font-family: monospace; /*одинаковая ширина каждого символа  */
+    border-style: dashed;  /* стиль границы, пунктир */
+    border-color: black; /* цвет границы */
+    border-width: 5px; /* толщина границы */
+    font-family: 'Edu TAS Beginner', cursive; /* стиль шрифта */
+    /* display: inline-block; */ /* замена коробки на блочно строчную коробку */
+    width: 45%;
+    /* white-space:nowrap; */ /* свойство запрещающие перенос текста по пробелам */
+    overflow: hidden; /* содержимое контента не входящие в границы блока обрезается по его краю без прокурутки */
+    text-overflow:ellipsis /* ставит ... в конце контента, РАБОТАЕТ ТОЛЬКО СОВМЕСТНО С OVERFLOW and WHITE-SPACE:NOWRAP */
+  }
 
-.div_2 {
-    columns: 2 150px;
-}
-
-/* .second_2 {
-        color: rgb(255, 255, 255);
-        text-align: left;
-        font-size: 30px;
-        margin-bottom: 0;
-        font-weight:400;
-        font-family: monospace;
-        border-style: dashed;
-        border-color: black;
-        border-width: 5px;
-        font-family: 'Edu TAS Beginner', cursive;
-        display: inline-block;
-        width: 40%;
-        margin: auto;
-
-}
- */
 span {
-    font-weight: bold;
-    color: black;
-    text-transform:uppercase;
-    letter-spacing: 2px;
-    text-decoration: underline;
-
+        letter-spacing: 1px;
+        display: block;
 }
+
+.form {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-item {
+    display: flex;
+      }
+
+  .search {
+    width: 500px;
+    border: 1px solid #000;
+    padding: 10px 15px;
+    font-family: inherit;
+    font-size: inherit;
+    /* background-color: tranparent; */
+  }
+
+  .button {
+    border: 1px solid #000;
+    padding: 10px 65px;
+    color: #000;
+    font-family: inherit;
+    font-weight: 800;
+    font-size: inherit;
+    text-transform: uppercase;
+    background-color: #ffc802;
+ }
+
+
+  
